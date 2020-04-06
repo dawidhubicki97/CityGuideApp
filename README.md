@@ -9,6 +9,8 @@ Funkcjonalności:<br>
 -wyświetlanie odległości do trasy jeżeli na niej nie jesteśmy<br>
 -wyświetlanie znacznika na mapie gdy znajdujemy się blisko jednego z ciekawszych miejsc dla danej trasy (geofencing, potrzebna jest lokalizacja z siecii komórkowej)
 
+Ze względu na bezpieczeństwo niektóre dane nie powinny być publikowane na publicznym repozytorium dlatego aplikacja wymaga konfiguracji.
+
 Aby aplikacja działała poprawnie należy wkleić swój Google Api Key w pliku app/res/values/strings: 
 
 ```
