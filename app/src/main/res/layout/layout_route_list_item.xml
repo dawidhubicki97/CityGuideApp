@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_vertical">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       app:cardCornerRadius="20dp"
+                                       android:layout_margin="8dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+            <ImageView
+                    android:id="@+id/imageViewCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/common_google_signin_btn_icon_dark"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:textColor="#262626"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/titleViewCard"
+                      android:layout_marginTop="18dp"
+                      android:layout_marginStart="16dp"
+                      android:textSize="16sp" tools:text="sdada" android:layout_below="@+id/imageViewCard"/>
+            <TextView
+                    android:id="@+id/descriptionCardView"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="16dp"
+                    android:maxLines="3"
+                    android:drawablePadding="10dp"
+                    android:ellipsize="end"
+
+                    android:text="sasa" android:layout_below="@+id/titleViewCard"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+

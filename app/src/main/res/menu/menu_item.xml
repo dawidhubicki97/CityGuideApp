@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mapmenuitem"
+          android:title="Mapa"/>
+    <item android:id="@+id/routes"
+    android:title="Trasy"/>
+  <item android:id="@+id/switch_item"
+        android:title="Sledz poza trasa"
+        app:actionLayout="@layout/switch_layout"
+  />
+
+
+</menu>
